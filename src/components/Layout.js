@@ -2,14 +2,15 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
-import './all.sass'
+// import './all.sass'
+import './hipporello.scss'
 import useSiteMetadata from './SiteMetadata'
 import { withPrefix } from 'gatsby'
 
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata()
   return (
-    <div>
+    <div className="wrapper">
       <Helmet>
         <html lang="en" />
         <title>{title}</title>
@@ -47,6 +48,10 @@ const TemplateWrapper = ({ children }) => {
           property="og:image"
           content={`${withPrefix('/')}img/og-image.jpg`}
         />
+
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.7/css/unicons.css" />
+
       </Helmet>
       <Navbar />
       <div>{children}</div>

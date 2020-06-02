@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="20px" viewBox="0 0 14 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>mouse-alt</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Illustrations" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-783.000000, -284.000000)">
+            <g id="Group" transform="translate(779.000000, 242.000000)">
+                <g id="mouse-alt" transform="translate(4.000000, 42.000000)">
+                    <path d="M7,-8.8817842e-16 C3.13400675,-8.8817842e-16 -8.8817842e-16,3.13400675 -8.8817842e-16,7 L-8.8817842e-16,13 C-8.8817842e-16,16.8659932 3.13400675,20 7,20 C10.8659932,20 14,16.8659932 14,13 L14,7 C14,3.13400675 10.8659932,-8.8817842e-16 7,-8.8817842e-16 Z" id="Shape" fill="#334AC0" fill-rule="nonzero"></path>
+                    <path d="M7,2 C9.76142375,2 12,4.23857625 12,7 L12,13 C12,15.7614237 9.76142375,18 7,18 C4.23857625,18 2,15.7614237 2,13 L2,7 C2,4.23857625 4.23857625,2 7,2 Z M7,4 C6.44771525,4 6,4.44771525 6,5 L6,7 C6,7.55228475 6.44771525,8 7,8 C7.55228475,8 8,7.55228475 8,7 L8,5 C8,4.44771525 7.55228475,4 7,4 Z" id="Combined-Shape" fill="#A6B1E7"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
