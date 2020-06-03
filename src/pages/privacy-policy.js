@@ -15,7 +15,7 @@ const TermsOfUse = () => {
         <div className="page-content section">
           <div className="container">
             <div className="section-title">
-              <h2>Privacy Policy</h2>
+              <h1>Privacy Policy</h1>
             </div>
             <p>This Privacy Policy (the “Policy”) governs how we (“Hipporello”) use, collect, and store information Hipporello receives from or about you. This Policy applies to your use of our website, services, and/or mobile apps and technology (the “Products”). By accessing or using the Products, you acknowledge that you have read, understand and consent to this Policy. Hipporello may update this Policy at any time, so you should frequently check this page for any changes. Hipporello may notify you of such change through your use of the Products or by sending you an email or other notification. Your continued use of the Products after any changes are made, whether or not we notify you, will constitute your acknowledgement and agreement to the updated version of this Policy.</p>
             <h3>1. Purpose</h3>

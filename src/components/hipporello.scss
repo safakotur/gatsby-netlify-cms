@@ -38,7 +38,13 @@ body {
   margin-bottom: 350px;
 
   .page-content {
-    padding-top: 44px;
+    .section-title {
+      margin: 44px auto;
+
+      h1 {
+        margin: 0;
+      }
+    }
   }
 }
 
@@ -432,7 +438,7 @@ a {
 
   .use-cases-wrapper .use-cases-box {
     padding: 24px;
-    width: 100%;
+    width: auto;
     transition: all linear .2s;
     border-radius: 16px;
     display: flex;
@@ -690,10 +696,12 @@ a {
 .blog-posts {
   .section-title {
     max-width: 960px;
+    margin:  44px auto;
     h1 {
       color: var(--dark-text-color);
       font-size: 32px;
       line-height: 44px;
+      margin: 0;
     }
   }
 }
@@ -1004,7 +1012,6 @@ a {
     padding: 0 16px;
 
     a.btn-primary {
-      width: 100%;
       font-size: 16px;
     }
   }
@@ -1106,7 +1113,7 @@ a {
 
       .footer-widget {
         width: 100%;
-        padding: 0 24px 16px;
+        padding: 0 0 16px;
         overflow: hidden;
 
         .logo {
@@ -1116,6 +1123,15 @@ a {
 
         .footer-social {
           justify-content: center;
+
+          a {
+            width: 30px;
+            height: 30px;
+
+            &:last-child {
+              margin-right: 0;
+            }
+          }
         }
       }
     }

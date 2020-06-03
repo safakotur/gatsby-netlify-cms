@@ -15,7 +15,7 @@ const TermsOfUse = () => {
         <div className="page-content section">
           <div className="container">
             <div className="section-title">
-              <h2>Terms of Use</h2>
+              <h1>Terms of Use</h1>
             </div>
             <p>Updated May 15, 2020</p>
             <p>Welcome to the document platform service offered by ApiGap, Inc., a Delaware corporation (“ApiGap”, “we,” “our” or “us”). The following terms and conditions (the “Terms”) govern your access to and/or use of the document platform, website and ApiGap’s content, services and products available at and/or through the website, including, but not limited to, electronic signature services, online uploads, display, delivery, acknowledgment, and limited storage services for documents and/or electronic contracts (collectively, the “Services”).</p>
