@@ -19,7 +19,7 @@ const Features = () => {
 
     <Layout>
 
-      <div class="section-holder">
+      <div className="section-holder">
         <div id="features" className="features section">
           <div className="container">
             <div className="section-title">

@@ -11,10 +11,10 @@ const TermsOfUse = () => {
 
     <Layout>
 
-      <div class="section-holder">
-        <div class="page-content section">
-          <div class="container">
-            <div class="section-title">
+      <div className="section-holder">
+        <div className="page-content section">
+          <div className="container">
+            <div className="section-title">
               <h2>Terms of Use</h2>
             </div>
             <p>Updated May 15, 2020</p>

@@ -13,7 +13,7 @@ const HowItWorks = () => {
     <Layout>
       <ModalVideo channel='youtube' isOpen={isOpen} videoId='16-91ojSbaQ' onClose={() => setIsOpen(false)} />
 
-      <div class="section-holder">
+      <div className="section-holder">
         <div id="how-it-works" className="how-it-works section">
           <div className="container">
             <div className="section-title">

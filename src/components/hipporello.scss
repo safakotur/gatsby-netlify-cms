@@ -321,6 +321,7 @@ a {
 
     .mobile-flow {
       display: none;
+      max-width: 100%;
     }
   }
 }
@@ -982,7 +983,8 @@ a {
     }
 
     .hero-image {
-      padding: 0 24px;
+      padding: 0;
+      max-width: 90%;
 
       img {
         display: none;
