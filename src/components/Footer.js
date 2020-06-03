@@ -10,6 +10,18 @@ import instagram from '../img/icon-instagram.svg'
 
 const Footer = class extends React.Component {
   render() {
+
+    const scrollElement = (id, e) => {
+      e.preventDefault();
+      const el = document.getElementById(id);
+
+      window.scroll({
+        behavior: 'smooth',
+        left: 0,
+        top: el.offsetTop - 60
+      });
+    }
+
     return (
       <div className="footer">
         <div className="container">
@@ -34,10 +46,10 @@ const Footer = class extends React.Component {
               <h4>Product</h4>
               <ul>
                 <li>
-                  <a href="#">How it Works?</a>
+                  <a onClick={scrollElement.bind(this, 'how-it-works')} href="#how-it-works">How it Works?</a>
                 </li>
                 <li>
-                  <a href="#">Features</a>
+                  <a onClick={scrollElement.bind(this, 'features')} href="#features">Features</a>
                 </li>
               </ul>
             </div>
@@ -75,7 +87,6 @@ const Footer = class extends React.Component {
               </div>
             </div>
           </div>
-          <div className="footer-text">© {new Date().getFullYear()}, Built with {` `} <a href="https://www.gatsbyjs.org">Gatsby</a></div>
         </div>
       </div>
     )
