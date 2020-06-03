@@ -13,9 +13,21 @@ const TemplateWrapper = ({ children }) => {
     <div className="wrapper">
       <Helmet>
         <html lang="en" />
-        <title>{title}</title>
-        <meta name="description" content={description} />
 
+        <title>{title} - {description}</title>
+        <meta name="description" content={description} />
+        <meta name="author" content={title} />
+        <meta name="robots" content="index,follow" />
+
+        <meta property="og:title" content={title} />
+        <meta property="og:description" content={description} />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.hipporello.com" />
+        <meta property="og:image" content={`${withPrefix('/')}img/social-image.png`} />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@hipporello" />
+        <meta name="twitter:creator" content="@hipporello" />
         <link
           rel="apple-touch-icon"
           sizes="180x180"
@@ -37,16 +49,7 @@ const TemplateWrapper = ({ children }) => {
         <link
           rel="mask-icon"
           href={`${withPrefix('/')}img/safari-pinned-tab.svg`}
-          color="#ff4400"
-        />
-        <meta name="theme-color" content="#fff" />
-
-        <meta property="og:type" content="business.business" />
-        <meta property="og:title" content={title} />
-        <meta property="og:url" content="/" />
-        <meta
-          property="og:image"
-          content={`${withPrefix('/')}img/og-image.jpg`}
+          color="#334ac0"
         />
 
         <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet" />

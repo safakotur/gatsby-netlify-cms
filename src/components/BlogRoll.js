@@ -20,7 +20,7 @@ class BlogRoll extends React.Component {
               >
 
                 <div className="blog-post-holder">
-                  <div className="blog-post-detail">
+                  <div className="blog-post-content">
                     <h2>
                       <Link to={post.fields.slug}>
                         {post.frontmatter.title}

@@ -30,8 +30,6 @@ const IndexPage = () => {
 
     <Layout>
 
-
-
       <ModalVideo channel='youtube' isOpen={isOpen} videoId='16-91ojSbaQ' onClose={() => setIsOpen(false)} />
 
 
