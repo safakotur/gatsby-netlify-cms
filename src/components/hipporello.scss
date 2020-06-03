@@ -967,7 +967,28 @@ a {
 
 @media only screen and (max-width: 1024px) {
 
-  
+  .blog-posts {
+    .blog-post-holder {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+
+      .blog-post-image {
+        order: 1;
+        flex: 0 0 100%;
+        margin: 0px 0 24px;
+        width: auto;
+      }
+
+      .blog-post-content {
+        order: 2;
+      }
+    }
+  }
+
+  .page-content {
+    padding: 0 24px;
+  }  
 
   .hero-area {
     padding-top: 40px;

@@ -6,13 +6,14 @@ import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 
+
 export const BlogPostTemplate = ({
   content,
   contentComponent,
   description,
   tags,
   title,
-  helmet,
+  helmet
 }) => {
   const PostContent = contentComponent || Content
 
@@ -75,7 +76,11 @@ const BlogPost = ({ data }) => {
         }
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
-      />
+      >
+
+
+
+      </BlogPostTemplate>
     </Layout>
   )
 }
@@ -97,6 +102,13 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         title
         description
+        featuredimage {
+          childImageSharp {
+            fluid(maxWidth: 290, quality: 100) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
         tags
       }
     }
