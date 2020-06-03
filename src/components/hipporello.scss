@@ -36,6 +36,10 @@ body {
   position: relative;
   z-index: 9;
   margin-bottom: 350px;
+
+  .page-content {
+    padding-top: 44px;
+  }
 }
 
 .particle {
